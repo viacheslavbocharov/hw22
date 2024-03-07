@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>User Data</h1>
+    <form action="" class="form" name="mainForm">
+      <p><input type="text" name="name" placeholder="Name" /></p>
+
+      <p><input type="text" name="surname" placeholder="Surname" /></p>
+
+      <p><input type="text" name="dob" placeholder="DOB" /></p>
+
+      <label><input type="radio" name="gender" value="M" /> Male </label><br />
+      <label><input type="radio" name="gender" value="F" /> Female </label
+      ><br />
+
+      <select name="city">
+        <option value="not selected">--select city--</option>
+        <option value="Odessa">Odessa</option>
+        <option value="New-York">New-York</option>
+        <option value="Toronto">Toronto</option></select
+      ><br />
+
+      <label
+        ><input type="checkbox" name="languages" value="en" />
+        English </label
+      ><br />
+      <label
+        ><input type="checkbox" name="languages" value="de" />
+        Deutsch </label
+      ><br />
+      <label
+        ><input type="checkbox" name="languages" value="ru" />
+        Russian </label
+      ><br />
+      <label
+        ><input type="checkbox" name="languages" value="uk" />
+        Ukrainian </label
+      ><br />
+
+      <p>
+        <textarea name="description" placeholder="Enter your text"></textarea>
+      </p>
+      <!-- <p><input type="reset" value="Clear" /></p> -->
+      <!-- <p><button type="reset">Reset Button</button></p> -->
+      <!-- <p><input type="submit" value="Input Sumbmit"></p> -->
+      <p><input type="button" class="btn" value="Send" /></p>   <!--THE SAME <button type="button" class="btn">Send</button> -->
+    </form>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
